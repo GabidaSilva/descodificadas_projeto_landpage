@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-1:#f4f4f4;
+    --color-2:#000000;
+    --color-3:#ffcc33;
+    --color-4:#333;
+    --color-5:#ffffff;
+    --color-6:#ffdd66;
+    --color-7:#008000;
+    --font-family:"Ubuntu", system-ui;
+
+}
+/* Estilização básica para a página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+/* Estilo do cabeçalho */
+header {
+    color: #000000;
+    text-align: center;
+    padding: 50px 0;
+}
+.event-header .date, .event-header .location{
+    font-size: 2rem;
+}
+.event-header .event-title{
+    font-size: 3rem;
+}
+.event-intro{
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcc33;
+}
+.event-intro .confirm-btn{
+    padding: 10px 20px;
+    background-color: #333;
+    color:#ffffff;
+    border:none;
+    cursor: pointer;
+}
+.intro-text{
+    font-size: 1.5rem;
+}
+.event-days{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffdd66;
+}
+.event-days .day{
+    text-align: center;
+}
+.event-days .day img{
+    width: 50%;
+    height: 60%;
+    border-radius: 4%;
+}
+.event-goal{
+    text-align: center;
+    padding:20px;
+    font-size: 1.5rem;
+}
+.speakers{
+    background-color: #ffcc33;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.speakers .speaker-grid{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffdd66;
+}
+.img1{
+    width: 50%;
+    height: 60%;
+    border-radius: 4%;
+}
+.img2{
+    width: 60%;
+    height: 60%;
+    border-radius: 4%;
+}
+.img3{
+    width: 70%;
+    height: 60%;
+    border-radius: 4%;
+}
+.speakers .speaker{
+    text-align: center;
+    margin: 10px;
+}
+.speaker-text{
+    font-size: 1rem;
+}
+.form{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.btn{
+    border-radius: 4%;
+    font-size: 1.5rem;
+}
+.location-info{
+    text-align: center;
+    padding: 20px;
+}footer{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+.confirm-btn{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+form label{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+form input{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+form button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+/* Estilo para o parágrafo de confirmação */
+#mensagem-confirmacao {
+    margin-top: 20px; /* Adiciona espaçamento acima da mensagem */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    color: #008000; /* Cor verde para mostrar que a confirmação foi bem-sucedida */
+}
